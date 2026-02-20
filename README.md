@@ -26,11 +26,11 @@ Hasil prediksi berupa kata-kata kemudian dirangkai menjadi kalimat yang natural 
 
 ---
 
-## ✨ Fitur Unggulan
+## ✨ Fitur 
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🎯 **Real-time Detection** | Deteksi isyarat langsung dari webcam dengan latensi rendah |
+| 🎯 **Real-time Detection** | Deteksi isyarat langsung dari webcam dengan latensi cukup rendah |
 | 🧠 **LSTM Neural Network** | Model sekuensial yang memahami urutan gerakan (30 frame/sampel) |
 | 🤖 **AI Sentence Generator** | Ollama + DeepSeek mengubah urutan kata menjadi kalimat bermakna |
 | 🗣️ **Text-to-Speech** | Konversi otomatis hasil prediksi ke audio menggunakan gTTS |
