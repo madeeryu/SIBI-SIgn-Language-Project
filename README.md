@@ -176,7 +176,7 @@ python main.py
 2. Pilih jumlah repetisi (rekomendasi: 30 video per kata)
 3. Posisikan diri di depan kamera
 4. Tekan tombol **"Mulai Rekam"** dan lakukan gerakan isyarat
-5. Dataset otomatis tersimpan dalam format landmark `.npy`
+5. Dataset otomatis tersimpan dalam bentuk video
 
 > 💡 **Tips**: Pastikan pencahayaan cukup dan seluruh tangan terlihat oleh kamera.
 
@@ -193,7 +193,7 @@ jupyter notebook sign-language-LSTM.ipynb
 ```
 
 **Pipeline Training:**
-1. **Load Data** — Muat landmark `.npy` dari hasil perekaman
+1. **Load Data** — Mengekstrak keypoint video dari hasil perekaman kedalam format `.npy`
 2. **Preprocessing** — Normalisasi & reshape data menjadi `(n_samples, 30, 1662)`
 3. **Split Data** — Bagi data train/validation (80:20)
 4. **Build Model** — Definisikan arsitektur LSTM
